@@ -1,10 +1,65 @@
-<!DOCTYPE html> 
-<html> lang= "es"> 
+<!DOCTYPE html>
+<html lang="es">
 <head>
-      <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Homework 2: In Plato's Cave - View From My Seat</title>
-   <style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 2: In Plato's Cave - View From My Seat</title>
+    <style>
+        /* Estilos básicos para que la página sea legible */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0 auto;
+            max-width: 800px;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #555;
+            margin-top: 30px;
+        }
+        .essay-text {
+            border-left: 3px solid #007bff; /* Línea de cita azul */
+            padding-left: 15px;
+            margin-bottom: 30px;
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Homework 2: Susan Sontag, In Plato's Cave</h1>
+
+    <div class="essay-text">
+        <h2>Mi Reflexión sobre Fotografía y Experiencia en el Teatro</h2>
+
+        <p>
+            Hay aproximadamente 10,000 fotografías almacenadas en mi teléfono ahora mismo, con aún más dispersas en mi computadora y unidades en la nube. A pesar de la gran cantidad, la mayoría de estas fotografías son inútiles para cualquiera, excepto para mí: capturas de pantalla de conversaciones divertidas entre mis amigos, fotos rápidas de diapositivas de conferencias y docenas de otros temas benignos y cotidianos. Mi trabajo más importante tiende a presentarse en forma de video, donde capturo partes del mundo que considero más importantes, un breve clip de tiempo a través de mis ojos. Pero la fotografía no me es del todo ajena, aunque rara vez pienso en la composición de la cámara de mi teléfono de la misma manera que pienso en el encuadre de mi videocámara Panasonic 4K.
+        </p>
+
+        <h3>La Experiencia del Asiento en Broadway</h3>
+        <p>
+            A menudo asisto al teatro en Broadway, donde la elección del asiento es la decisión más importante que tengo que tomar con respecto a una actuación. La mayoría de los teatros no tienen asientos hechos para un cuerpo bajo y ancho como el mío; mis compañeros de audiencia en la siguiente fila a menudo resultan un desafío para mi propia línea de visión, y más de una vez he experimentado tocarme los hombros con mis vecinos mientras me apretujaba en un asiento demasiado pequeño para mí. Otras personas de otras complexiones tienen problemas diferentes; a menudo veo a hombres de más de 6 pies hacer muecas mientras suben a una fila con las rodillas apretadas contra los respaldos de los asientos delante de ellos. En más de una ocasión, me he levantado a mitad del espectáculo para dejar que alguien en mi fila se vaya y termine con su incomodidad.
+        </p>
+
+        <h3>Mi Misión Fotográfica y el "ViewFromMySeat"</h3>
+        <p>
+            Desde que comencé a asistir regularmente al teatro en 2022, me he propuesto fotografiar cada asiento para el que compro una entrada. Me aseguro de que las condiciones sean óptimas para lo que considero un reflejo honesto de mi experiencia: el teléfono se sostiene a la altura de mis ojos, ligeramente desplazado hacia la izquierda para que la cámara se alinee con mi línea de visión. La persona que está frente a mí debe estar en una posición que probablemente mantenga durante toda la actuación: ni inclinada hacia adelante, ni de pie, pero tampoco totalmente ausente o desplomada en su silla. Se debe capturar todo el ancho del escenario, si es posible, así como cualquier posible voladizo de los niveles de entresuelo o balcón. Bajar la exposición a menudo ayuda a que la foto parezca más compuesta y oculta los rostros de los transeúntes que puedan ser capturados en el momento. Después de todo eso, a menudo recorto y filtro la imagen como deseo, tratando de que la fotografía sea estética y funcional en su uso. El paso final es subirla a mi sitio de elección, ViewFromMySeat, que, he notado con el tiempo, agrega su propio filtro para oscurecer ligeramente cualquier imagen subida. La foto no es suficiente, sin embargo, ya que muchos otros factores del asiento deben comunicarse a través del pie de foto: el espacio para las piernas, el ancho de la silla y la proximidad a la salida son solo algunos ejemplos. Incluso en un sitio web que lleva el nombre de la <strong>vista</strong> desde un asiento, parte de la información más importante no se puede mostrar a través de la imagen, y en su lugar está oculta detrás de la miniatura de una entrada.
+        </p>
+    </div>
+
+    <hr>
+
+    <h2>Datos y Evidencia</h2>
+    <p>La información más importante sobre el asiento (espacio para piernas, ancho de silla, etc.) no es visual. Esta información se almacena y se describe en mi archivo <a href="data/seats.csv">seats.csv</a>.</p>
+    
+    </body>
+</html>
 
 
 
